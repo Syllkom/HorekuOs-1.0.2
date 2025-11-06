@@ -4,6 +4,8 @@
 import path from 'path';
 import fs from 'fs'
 
+global.googleApiKey = 'your-api-key-gemini'
+
 global.readMore = String
     .fromCharCode(8206)
     .repeat(850);
@@ -29,7 +31,7 @@ global.settings = {
         "failure": "✖️"
     },
     "SetUserRoles": {
-        "5216678432366": {
+        "573113825327": {
             "rowner": true,
             "owner": true,
             "modr": true,
